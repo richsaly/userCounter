@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+body{
+    background-color: rgb(1, 17, 12);
+}
+  
+  .counter {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  .users{
+    /* margin: 0 auto; */
+    padding: 20% 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .count-1 p{
+    color: whitesmoke;
+    font-weight: 700;
+  }
+
+  @media (min-width: 100px) and (max-width: 600px) {
+    .users{
+        flex-direction: column;
+    }
+
+    .count-1{
+        margin-bottom: 100px;
+    }
+  }
